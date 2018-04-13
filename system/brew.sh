@@ -118,6 +118,7 @@ brew cask install --appdir="/Applications" --require-sha iterm2
 # Development tool casks
 brew cask install --appdir="/Applications" --require-sha sublime-text
 brew cask install --appdir="/Applications" --require-sha visual-studio-code
+brew cask install --appdir="/Applications" --require-sha github
 
 # Browser casks
 brew cask install --appdir="/Applications" --require-sha firefox

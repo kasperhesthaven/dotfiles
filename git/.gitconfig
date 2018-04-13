@@ -22,7 +22,11 @@
 	show = diff-so-fancy | less --tabs=4 -RFX
 
 [color]
-	ui = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+  ui = auto
 [color "diff"]
 	meta = yellow bold
 	commit = green bold
