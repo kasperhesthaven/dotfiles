@@ -4,5 +4,6 @@
 yarn config set prefix ~/.yarn
 
 yarn global add gulp
-yarn global add diff-so-fancy
-yarn global add pure-prompt
+yarn global add lodash
+yarn global add debug
+yarn global add minimist

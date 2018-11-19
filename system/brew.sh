@@ -65,7 +65,6 @@ grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
 
 brew install grep
 brew install openssh
-brew install screen
 brew install vim --override-system-vi
 
 
@@ -74,11 +73,8 @@ brew install vim --override-system-vi
 # See https://github.com/ctfs/write-ups
 # =============================================================================
 
-brew install binutils
 brew install binwalk
 brew install nmap
-brew install tcpflow
-brew install tcpreplay
 brew install tcptrace
 
 # =============================================================================
@@ -87,7 +83,6 @@ brew install tcptrace
 
 brew install ack
 brew install brotli
-brew install fzf
 brew install git
 brew install git-extras
 brew install git-lfs
@@ -96,10 +91,8 @@ brew install lua
 brew install openssl
 brew install p7zip
 brew install pigz
-brew install pv
 brew install rename
 brew install tree
-brew install wget
 brew install zopfli
 brew install zsh-completions
 
@@ -123,19 +116,20 @@ brew cask install --appdir="/Applications" --require-sha github
 # Browser casks
 brew cask install --appdir="/Applications" --require-sha firefox
 brew cask install --appdir="/Applications" --require-sha google-chrome
-brew cask install --appdir="/Applications" chromium
 
 # Misc casks
 brew cask install --appdir="/Applications" --require-sha filezilla
 brew cask install --appdir="/Applications" --require-sha sketch
-brew cask install --appdir="/Applications" --require-sha slack
 brew cask install --appdir="/Applications" --require-sha vlc
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" resilio-sync
 brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" AppCleaner
 
 # Workflow
 brew cask install --appdir="/Applications" --require-sha caffeine
+brew cask install --appdir="/Applications" --require-sha cold-turkey-blocker
+brew cask install --appdir="/Applications" --require-sha timing
 brew cask install --appdir="/Applications" --require-sha cheatsheet
 brew cask install --appdir="/Applications" --require-sha macpass
 brew cask install --appdir="/Applications" vanilla
